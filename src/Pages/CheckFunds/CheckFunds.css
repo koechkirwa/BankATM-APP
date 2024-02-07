@@ -1,0 +1,87 @@
+*{
+    font-family: 'Noto Sans Display', sans-serif;
+}
+.check-funds-container{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+}
+
+.card-container{
+    width: 100%;
+    height: 40%;
+    min-height: 183px;
+
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-container{
+    width: 100%;
+
+    margin-top: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.check-input{
+    min-width: 20%;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+
+    border: 0.1rem solid rgba(128, 128, 128, 0.47);
+    border-radius: 5rem;
+
+    font-weight: normal;
+}
+
+
+
+
+
+.button-container{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    flex-direction: column;
+}
+
+.button-container button {
+    border: 0.1rem solid rgba(128, 128, 128, 0.48);
+    border-radius: 5rem;
+
+    background-color: #FFFFFF;
+    width: 10rem;
+    height: 4rem;
+
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 1.5rem;
+
+}
+
+.button-container button:hover {
+    background-color: #EC0000;
+
+}
+
+@media (min-width: 1025px) {
+    .button-container{
+        margin-top: 5rem;
+    }
+}
