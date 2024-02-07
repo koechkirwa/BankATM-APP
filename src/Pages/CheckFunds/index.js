@@ -48,4 +48,4 @@ const CheckFonds = () => {
     );
 };
 
-export {CheckFunds};
+export {CheckFonds};
